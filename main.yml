@@ -1,0 +1,5 @@
+---
+- name: Build roles incide collection
+  hosts: dev
+  roles:
+    - rhel.myuser.motd
